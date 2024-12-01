@@ -37,5 +37,5 @@ fun isPalindrome(st: String) :Boolean {
     for (i in st.length-1 downTo 0 step 1) {
         newSt += st[i]
     }
-    return newSt == st
+    return (newSt == st)
 }
