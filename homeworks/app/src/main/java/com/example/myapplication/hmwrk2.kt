@@ -33,7 +33,7 @@ fun reverseNum(x: Int) :Int {
 }
 
 fun isPalindrome(st: String) :Boolean {
-    var newSt :String = ""
+    var newSt= ""
     for (i in st.length-1 downTo 0 step 1) {
         newSt += st[i]
     }
